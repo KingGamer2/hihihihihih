@@ -78,6 +78,9 @@ ${prefix}say - يقول البوت التقوله ويحذف رسالتك
 『!لعبة خواطر / خواطر』
 『!لعبة  حب / حب』
 **`)
+       message.author.send(embed)
+}
+});  
 
 client.on('message', message => {
  if(message.content.startsWith(prefix +"server")){
